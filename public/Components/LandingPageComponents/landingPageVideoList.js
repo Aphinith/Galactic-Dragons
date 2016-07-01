@@ -21,13 +21,16 @@ class LandingPageVideoList extends Component {
 
   movieInfo(movieInfo) {
     if (movieInfo.rating > 2) {
-      return (
+        if (movieInfo.rating < 15) {
+          return (
         <section onClick={(movieSelected) => this.movieSelected(movieInfo)} className="landing_page_movieInfo">
           <a href={(movieSelected) => this.movieSelected(movieInfo)}>
             <img id="landing_page_movieInfo_image"src={movieInfo.image} /> 
           </a>
         </section>
       )
+        }
+      
     }
   }
 
