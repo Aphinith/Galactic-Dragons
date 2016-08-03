@@ -1,12 +1,12 @@
 # Sovereign
 
-> Pithy project description
+> A curated site for independent film makers and documentarians to upload and showcase their works of art. They can also connect with other independent film makers to collaborate in their works as well.
 
 ## Team
 
-  - __Product Owner__: teamMember
-  - __Scrum Master__: teamMember
-  - __Development Team Members__: teamMember, teamMember
+  - __Product Owner__: Yeiber Cano
+  - __Scrum Master__: Aralya Phinith
+  - __Development Team Members__: Dion Fulwood
 
 ## Table of Contents
 
@@ -24,11 +24,16 @@
 
 ## Requirements
 
-- Node 0.10.x
-- Redis 2.6.x
-- Postgresql 9.1.x
-- etc
-- etc
+- Axios
+- Babel-Runtime
+- Body-Parser
+- Express
+- Neo4J
+- Node
+- Nodemon
+- React
+- Underscore
+- WebPack
 
 ## Development
 
@@ -37,14 +42,19 @@
 From within the root directory:
 
 ```sh
-sudo npm install -g bower
 npm install
-bower install
 ```
+
+Open a new tab in the terminal and run server:
+```sh
+nodemon server.js
+```
+
+Navigate to localhost:3000 on your browser
 
 ### Roadmap
 
-View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
+View the project roadmap [here](https://github.com/Aphinith/Sovereign/commits/master)
 
 
 ## Contributing
