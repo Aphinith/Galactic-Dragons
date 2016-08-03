@@ -20,7 +20,7 @@
 
 ## Usage
 
-> Some usage instructions
+> 
 
 ## Requirements
 
